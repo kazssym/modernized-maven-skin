@@ -33,7 +33,7 @@
 <connection>scm:hg:https://bitbucket.org/vx68k/modernized-maven-skin</connection>
 <developerConnection>scm:hg:ssh://hg@bitbucket.org/vx68k/modernized-maven-skin</developerConnection>
 <tag>master</tag>
-<url>https://bitbucket.org/vx68k/modernized-maven-skin/src/master</url>
+<url>https://bitbucket.org/vx68k/modernized-maven-skin/src/master/</url>
 </scm>
 
 <issueManagement>
