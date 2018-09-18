@@ -81,7 +81,7 @@ $bodyContent
 #if ($decoration.body.footer)
 $render.eval($decoration.body.footer)
 #else
-Copyright &#169;#copyright() All rights reserved.
+Copyright &#169; #copyright() All rights reserved.
 #publishDate("bottom" $decoration.publishDate $decoration.version)
 #end
 </div>
