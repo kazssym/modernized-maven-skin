@@ -5,6 +5,7 @@
 <groupId>org.vx68k.maven.skins</groupId>
 <artifactId>modernized-maven-skin</artifactId>
 <version>1.0-SNAPSHOT</version>
+<packaging>jar</packaging>
 <name>Modernized Maven Skin</name>
 <description>A simple HTML5 skin.</description>
 <url>https://vx68k.bitbucket.io/modernized-maven-skin/1/</url>
