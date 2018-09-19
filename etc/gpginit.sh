@@ -1,6 +1,6 @@
 #!/bin/sh
 # gpginit.sh
-# Copyright (C) 2016-2018 Kaz Nishimura
+# Copyright (C) 2018 Kaz Nishimura
 #
 # Copying and distribution of this file, with or without modification, are
 # permitted in any medium without royalty provided the copyright notice and
