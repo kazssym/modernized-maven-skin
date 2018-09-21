@@ -166,3 +166,6 @@ div.clear hr{
   border: 0px;
   margin: 0px;
 }
+#contentBox {
+  overflow: auto;
+}
