@@ -58,13 +58,12 @@ div.clear hr{
   padding: 3px 10px 3px 10px;
 }
 #leftColumn {
- width: 170px;
- float:left;
- overflow: auto;
+  overflow: auto;
 }
 #bodyColumn {
   margin-right: 1.5em;
-  margin-left: 197px;
+  margin-left: 1.5em;
+  overflow: auto;
 }
 #legend {
   padding: 8px 0 8px 0;
@@ -161,7 +160,4 @@ div.clear hr{
   padding-right: 2px;
   border: 0px;
   margin: 0px;
-}
-#contentBox {
-  overflow: auto;
 }

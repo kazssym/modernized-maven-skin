@@ -95,7 +95,7 @@ p {
   background-color: #ccc;
 }
 #leftColumn {
-  margin: 10px 0 0 5px;
+  margin: 10px 5px 0 5px;
   border: 1px solid #999;
   background-color: #eee;
   padding-bottom: 3px; /* IE-9 scrollbar-fix */

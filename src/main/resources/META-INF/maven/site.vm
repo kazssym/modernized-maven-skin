@@ -38,14 +38,17 @@ $headContent
 #googleAnalytics($decoration.googleAnalyticsAccountId)
 </head>
 <body class="pure-g composite">
-<div id="banner" class="pure-u-1">
+<div class="pure-u-1">
+<div id="banner">
 #banner($decoration.bannerLeft "bannerLeft")
 #banner($decoration.bannerRight "bannerRight")
 <div class="clear">
 <hr />
 </div>
 </div>
-<div id="breadcrumbs" class="pure-u-1">
+</div>
+<div class="pure-u-1">
+<div id="breadcrumbs">
 #publishDate("left" $decoration.publishDate $decoration.version)
 <div class="xright">#links($decoration.body.links)
 #publishDate("right" $decoration.publishDate $decoration.version)
@@ -54,7 +57,8 @@ $headContent
 <hr />
 </div>
 </div>
-<div class="pure-u-1">
+</div>
+<div class="pure-u-1 pure-u-md-1-4">
 <div id="leftColumn">
 <div id="navcolumn">
 #publishDate("navigation-top" $decoration.publishDate $decoration.version)
@@ -63,16 +67,16 @@ $headContent
 #publishDate("navigation-bottom" $decoration.publishDate $decoration.version)
 </div>
 </div>
+</div>
+<div class="pure-u-1 pure-u-md-3-4">
 <div id="bodyColumn">
 <div id="contentBox">
 $bodyContent
 </div>
 </div>
-<div class="clear">
-<hr />
 </div>
-</div>
-<div id="footer" class="pure-u-1">
+<div class="pure-u-1">
+<div id="footer">
 <div class="xright">
 #if ($decoration.body.footer)
 $render.eval($decoration.body.footer)
@@ -83,6 +87,7 @@ Copyright &#169; #copyright() All rights reserved.
 </div>
 <div class="clear">
 <hr />
+</div>
 </div>
 </div>
 <link href="$relativePath/css/pure/pure.css" rel="stylesheet" />
