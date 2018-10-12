@@ -90,8 +90,8 @@ Copyright &#169; #copyright() All rights reserved.
 </div>
 </div>
 </div>
-<link href="$relativePath/css/pure/pure.css" rel="stylesheet" />
-<link href="$relativePath/css/pure/grids-responsive.css" rel="stylesheet" media="screen" />
+<link href="$relativePath/css/pure/pure.min.css" rel="stylesheet" />
+<link href="$relativePath/css/pure/grids-responsive.min.css" rel="stylesheet" media="screen" />
 <link href="$relativePath/css/maven-base.css" rel="stylesheet" />
 <link title="Default Theme" href="$relativePath/css/maven-theme.css" rel="stylesheet" />
 <link href="$relativePath/css/site.css" rel="stylesheet" />
