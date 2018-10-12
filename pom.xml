@@ -4,7 +4,7 @@
 
 <groupId>org.vx68k.maven.skins</groupId>
 <artifactId>modernized-maven-skin</artifactId>
-<version>1.0-SNAPSHOT</version>
+<version>1.0-alpha.4</version>
 <packaging>jar</packaging>
 <name>Modernized Maven Skin</name>
 <description>A simple HTML5 skin.</description>
@@ -33,7 +33,7 @@
 <scm>
 <connection>scm:hg:https://bitbucket.org/vx68k/modernized-maven-skin</connection>
 <developerConnection>scm:hg:ssh://hg@bitbucket.org/vx68k/modernized-maven-skin</developerConnection>
-<tag>master</tag>
+<tag>prerelease/1.0-alpha.4</tag>
 <url>https://bitbucket.org/vx68k/modernized-maven-skin/src/${project.scm.tag}/</url>
 </scm>
 
